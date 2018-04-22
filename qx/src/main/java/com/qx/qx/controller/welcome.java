@@ -24,7 +24,7 @@ public class welcome {
     public ModelAndView welcome(HttpServletRequest request, HttpServletResponse response){
         ModelAndView modelAndView=new ModelAndView();
         Map<String,Object> modelmap=modelAndView.getModel();
-        modelAndView.setViewName("index");
+        modelAndView.setViewName("hello");
         System.out.println("666666");
         return modelAndView;
     }
